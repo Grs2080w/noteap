@@ -1,0 +1,29 @@
+{
+	"name": "noteap-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon main.js",
+		"start": "node main.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@google/genai": "^1.7.0",
+		"dotenv": "^16.6.0",
+		"express": "^5.1.0",
+		"mongodb": "^6.17.0",
+		"mongoose": "^8.16.1",
+		"nodemon": "^3.1.10",
+		"prettier": "^3.6.1",
+		"remark-frontmatter": "^5.0.0",
+		"remark-lint": "^10.0.1",
+		"remark-parse": "^11.0.0",
+		"remark-stringify": "^11.0.0",
+		"unified": "^11.0.5"
+	}
+}

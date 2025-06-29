@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "noteap",
+    "slug": "noteap",
+    "version": "1.0.0",
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.grs2080w.noteap"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d1c56ef-8cf3-4a64-a377-14b91555a9fe"
+      }
+    }
+  }
+}
